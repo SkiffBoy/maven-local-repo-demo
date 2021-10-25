@@ -1,0 +1,18 @@
+# 需要忽略的 jar 起始名称列表(剔除版本号之后的文件名)
+
+activation-
+commons-beanutils-
+commons-cli-
+commons-codec-
+commons-collections-
+commons-collections4-
+commons-configuration-
+commons-fileupload-
+commons-httpclient-
+commons-io-
+commons-jxpath-
+commons-lang-
+commons-lang3-
+commons-logging-
+commons-math-
+commons-pool2-
