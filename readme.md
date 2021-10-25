@@ -19,3 +19,12 @@ sh init_repo.sh
 
     * https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler/engine
 
+* 命令行使用 IDEA 自带的 java-decompiler.jar 进行反编译
+
+```shell
+# mac
+java -cp "/Applications/IntelliJ IDEA.app/Contents/plugins/java-decompiler/lib/java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler  -dgs=true  "./lib/java-decompiler-2019.3.5.jar" ~/Desktop/
+
+# windows
+java -cp "C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.4\plugins\java-decompiler\lib\java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler  -dgs=true  ".\lib\java-decompiler-2019.3.5.jar" ~/Desktop/
+```
